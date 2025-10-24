@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>欢迎来到留言树屋</title>
+		<link rel="stylesheet" href="../css/message.css" />
+		<link rel="stylesheet" href="../css/base.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div class="message-header">
+				<h1>欢迎来到留言树屋</h1>
+				<p>在这片绿意森林里，你可以留言、登记、记录日程，也可以留下只属于你的树屋日记。</p>
+			</div>
+		</div>
+		<!-- 留言板 -->
+		<div id="board1">
+			<div class="form-section">
+				<h2>🌱 留言板</h2>
+				<form class="message-form">
+					<div class="block1">
+						<label for="user">昵称*</label>
+						<input id="user" type="text"  placeholder="你的昵称" required="required"/>
+					</div>
+					<div class="block1">
+						<label for="mail">邮箱*</label>
+						<input id="mail" type="email" placeholder="你的邮箱" required="required"/>
+					</div>
+					<div class="block2">
+						<label>留言内容</label>
+						<textarea placeholder="想对我说的话..." rows="6" required="required"></textarea>
+					</div>
+					<div class="submit">
+						<button type="submit">提交留言</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- 个人信息登记处 -->
+		<div id="board2">
+			<div class="form-section">
+				<h2>📋 树屋居民登记表</h2>
+				<form class="info-form">
+					<div class="form1">
+						<fieldset>
+							<legend>个人信息</legend>
+							<div class="block1">
+								<label for="name">姓名*</label>
+								<input id="name" type="text"  placeholder="你的姓名" required="required"/>
+							</div>
+							<div class="block1">
+								<label for="address">地址*</label>
+								<input id="address" type="text" placeholder="你的地址" required="required"/>
+							</div>
+							<div class="block1">
+								<label for="date">生日*</label>
+								<input id="date" type="date" required="required"/>
+							</div>
+							<div class="block1">
+								<label>性别*</label>
+								<select>
+									<option>男</option>
+									<option>女</option>
+								</select>
+							</div>
+						</fieldset>
+					</div>
+					<div class="form2">
+						<fieldset>
+							<legend>喜好调查</legend>
+							<p>你喜欢这个网站吗？
+							<input type="radio" name="like">喜欢
+							<input type="radio" name="like">不喜欢
+							</p>
+							<p>你喜欢的原因：
+							<input type="checkbox">页面美观
+							<input type="checkbox">结构合理
+							<input type="checkbox">构思巧妙
+							<input type="checkbox">主题新颖
+							<input type="checkbox">内容丰富
+							<input type="checkbox">产生共鸣
+							</p>
+						</fieldset>
+					</div>
+					<div class="form3">
+						<fieldset>
+							<legend>你的建议</legend>
+							<textarea placeholder="提供你的建议..." rows="6" required="required"></textarea>
+						</fieldset>
+					</div>
+					<div class="submit">
+						<button type="submit">🌳 提交信息</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- 日历 -->
+		<div id="date">
+			<div class="calendar-section">
+				<h2>🗓️ 树屋活动日历 · 2025年11月</h2>
+				<table class="calendar-table">
+					<thead>
+						<tr><td>日</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td></tr>
+					</thead>
+					<tbody>
+						<tr><td></td><td></td><td></td><td></td><td class="day">1</td><td class="day">2</td class="day"><td  class="day">3</td></tr>
+						<tr><td class="day">4</td><td class="day">5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+						<tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+						<tr><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>
+						<tr><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td class="day">31</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!-- 悬浮导航 -->
+		<div class="box">
+			<a href="../index.html">封面页</a>
+			<a href="home.html">我的主页</a>
+			<a href="detail.html">兴趣爱好</a>
+			<a href="message.html" class="active">留言树屋</a>
+		</div>
+</body>
+</html>

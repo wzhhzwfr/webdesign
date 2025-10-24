@@ -1,0 +1,230 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	background: url(../img/bk.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	overflow-x: hidden; /* 防止横向滚动条 */
+}
+#header {
+	width: 100%;
+}
+#header .message-header {
+	width: 1100px;
+	margin: 0 auto 34px;
+	padding: 24px 36px;
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius: 0 0 18px 18px;
+	font-family: "微软雅黑";
+	box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+	color: #333;
+	text-align: center;
+}
+#header .message-header h1 {
+	color: #4c7737;
+	font-size: 30px;
+	margin-bottom: 12px;
+}
+#header .message-header p{
+	line-height: 24px;
+	font-size: 16px;
+}
+
+#board1 {
+	width: 1200px;
+	margin: auto;
+	padding: 10px 100px;
+	/* background-color: rgba(255, 255, 255, 0.85); */
+}
+#board1 .form-section {
+	margin: 10px auto;
+	background-color: #f7fff2;
+	/* background-color: rgba(255, 255, 255, 0.9); */
+	border-radius: 20px;
+	padding: 30px 100px;
+	box-shadow: 0 20px 20px rgba(0,0,0,0.1);
+}
+#board1 .form-section h2 {
+	text-align: center;
+	color: #4c7737;
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+#board1 .form-section .message-form{
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 40px;
+}
+#board1 .form-section .message-form .block1{
+	width: 500px;
+	float: left;
+}
+#board1 .form-section .message-form label {
+	padding: 30px;
+}
+#board1 .form-section .message-form input {
+	width: 335px;
+	margin: 10px auto;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board1 .form-section .message-form textarea {
+	width: 920px;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board1 .form-section .message-form .submit {
+	text-align: center;
+}
+#board1 .form-section .message-form button {
+	margin: 10px auto;
+	padding: 10px 40px;
+	font-size: 26px;
+	color: white;
+	background-color: #8cc269;
+	border: none;
+	border-radius: 20px;
+}
+#board1 .form-section .message-form button:hover {
+	background-color: #6ea24b;
+}
+
+#board2 {
+	width: 1200px;
+	margin: auto;
+	padding: 10px 100px;
+}
+#board2 .form-section {
+	margin: 10px auto;
+	background-color: #f7fff2;
+	/* background-color: rgba(255, 255, 255, 0.9); */
+	border-radius: 20px;
+	padding: 30px 100px;
+	box-shadow: 0 0.4vw 0.8vw rgba(0,0,0,0.1);
+}
+#board2 .form-section h2 {
+	text-align: center;
+	color: #4c7737;
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+#board2 .form-section .info-form{
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 40px;
+}
+#board2 .form-section .info-form fieldset {
+	border: none;
+	border-top: 2px solid #c9dca6;
+	margin: 20px 0;
+	padding: 20px 0;
+}
+#board2 .form-section .info-form fieldset legend {
+	font-weight: bold;
+	color: #4c7737;
+	font-size: 26px;
+}
+#board2 .form-section .info-form fieldset label {
+	padding: 30px;
+}
+#board2 .form-section .info-form .form1 fieldset .block1{
+	width: 500px;
+	float: left;
+}
+#board2 .form-section .info-form .form1 input {
+	width: 335px;
+	margin: 10px auto;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board2 .form-section .info-form .form1 select {
+	width: 375px;
+	margin: 10px auto;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board2 .form-section .info-form .form2 fieldset p {
+	width: 900px;
+	margin-left: 30px;
+	line-height: 40px;
+	font-size: 18px;
+}
+#board2 .form-section .info-form textarea {
+	width: 920px;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board2 .form-section .info-form select {
+	width: 100%;
+	margin: 10px auto;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board2 .form-section .info-form .submit {
+	text-align: center;
+}
+#board2 .form-section .info-form button {
+	margin: 10px auto;
+	padding: 10px 40px;
+	font-size: 26px;
+	color: white;
+	background-color: #8cc269;
+	border: none;
+	border-radius: 20px;
+}
+#board2 .form-section .info-form button:hover {
+	background-color: #6ea24b;
+}
+
+#date {
+	width: 1200px;
+	margin: auto;
+	padding: 10px 100px;
+}
+#date .calendar-section {
+	margin: 10px auto;
+	background-color: #f7fff2;
+	/* background-color: rgba(255, 255, 255, 0.9); */
+	border-radius: 20px;
+	padding: 30px 100px;
+	box-shadow: 0 0.4vw 0.8vw rgba(0,0,0,0.1);
+}
+#date .calendar-section h2 {
+	text-align: center;
+	color: #4c7737;
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+#date .calendar-section .calendar-table {
+	width: 100%;
+	border-spacing: 0;
+	/* empty-cells: hide; */
+	text-align: center;
+}
+#date .calendar-section .calendar-table td {
+	border: 1px solid #ccc;
+	background-color: #e0f5e6;
+	padding: 20px;
+	font-size: 16px;
+	color: #333;
+} 
+#date .calendar-section .calendar-table .day {
+	border: 1px solid #ccc;
+	background-color: #c8f9d6;
+} 

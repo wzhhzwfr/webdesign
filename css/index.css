@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	background: url(../img/bk.jpeg) no-repeat center center fixed;
+	background-size: cover;
+}
+#bkground{
+	padding-top: 100px;
+	text-align: center;
+}
+#bkground .my-information{
+	width: 450px;
+	height: auto;
+	margin: 0 auto;
+	padding: 130px 10px 40px 10px;
+	position: relative;
+	/* 设置透明度(最后一个参数) */
+	background: rgba(116, 120, 122, 0.5);
+	border-radius: 20px;
+}
+#bkground .my-information i{
+	background: url(../img/jou.png)no-repeat center center;
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	margin-top: -70px;
+}
+#bkground .my-information h3{
+	font-size: 30px;
+	color: white;
+	font-weight: 700;
+	line-height: 60px;
+}
+#bkground .my-information h4{
+	font-size: 18px;
+	color: white;
+	font-weight: 400;
+	padding-top: 30px;
+} 
+#bkground .my-information h5{
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	line-height: 40px;
+	padding-bottom: 20px;
+} 
+#bkground .my-information p{
+	font-size: 18px;
+	line-height: 20px;
+	width: 80%;
+	color: white;
+	text-align: center;
+	margin: 20px auto;
+}
+#bkground .my-information a {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 9px 30px;
+  margin-top: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+#bkground .my-information a:hover {
+  background-color: white;
+  color: #8cc269;
+  transform: scale(1.05);
+}

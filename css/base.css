@@ -1,0 +1,114 @@
+/* 公共样式 */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #89898b;
+}
+i,em{
+	font-style: normal;
+}
+b,strong{
+	font-weight: normal;
+}
+/* 高度坍塌 */
+.clearfix:after,
+.clearfix:before{
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	height: 0;
+}
+/* 以上均为通用设置 */
+
+/* 左侧固定悬浮框 */
+.box {
+	width: 180px;
+	position: fixed;
+	left: 20px;
+	top: 270px;
+	z-index: 99;
+	background-color: #8cc269;
+	border-radius: 15px;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+	padding: 10px 0;
+	text-align: center;
+}
+.box a {
+	display: block;
+	padding: 15px 0;
+	margin: 10px 15px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.1);
+	transition: background-color 0.3s, transform 0.2s;
+}
+.box a:active{
+	background-color: #ffffff;
+	color: #8cc269;
+	transform: scale(1.05);
+	font-weight: bold;
+}
+.box a:hover {
+	background-color: #ffffff;
+	color: #8cc269;
+	transform: scale(1.05);
+	font-weight: bold;
+}
+/* 右侧固定悬浮框 */
+.box-right {
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	right: 70px;
+	bottom: 70px;
+	z-index: 99;
+	background: url(../img/返回顶部.png) no-repeat;
+	background-size: 75px;
+	background-position-x: -2px;
+	background-position-y: -2px;
+	border-radius: 70px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.box-right:hover{
+	background-position-y: -80px;
+}
+.box-right a{
+	display: block;
+	width: 70px;
+	height: 70px;
+}
+
+/* 尾部固定尾页 */
+#footer {
+	width: 100%;
+	text-align: center;
+	font-size: 1vw;
+	background-color: #e0f5df;
+	padding: 1.5vw 0;
+	margin-top: 3vw;
+	color: #444;
+	line-height: 2vw;
+}
+#footer a {
+	font-size: 1.2vw;
+	color: #4c7737;
+	text-decoration: none;
+	margin: 0 0.5vw;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+#footer p{
+	line-height: 3vw;
+	font-size: 1.2vw;
+}

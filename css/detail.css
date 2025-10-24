@@ -1,0 +1,330 @@
+*{	
+	padding: 0;
+	margin: 0;
+}
+#intro {
+	width: 100%;
+}
+#intro .intro-content {
+	width: 1000px;
+	margin: 0 auto 34px;
+	padding: 24px 36px;
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius: 18px;
+	font-family: "微软雅黑";
+	box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+	color: #333;
+	text-align: center;
+}
+#intro .intro-content h2 {
+	color: #4c7737;
+	font-size: 30px;
+	margin-bottom: 12px;
+}
+#intro .intro-content p{
+	line-height: 24px;
+	font-size: 16px;
+}
+
+#nav {
+	text-align: center;
+	margin: 34px auto;
+	width: 900px;
+}
+#nav a {
+	display: inline-block;
+	margin: 0 34px;
+	padding: 12px 34px;
+	background-color: #8cc269;
+	/* 圆角按钮，半圆形效果 */
+	border-radius: 24px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+#nav a:hover {
+	background-color: #6eaf4b;
+}
+
+#music{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 48px 0;
+	background-color: #f9fff3; /* 默认背景色 */
+}
+#music .main-content h2 {
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #2e7d32;
+}
+#music .main-content .cd-section {
+	text-align: center;
+	padding: 20px 0;
+	background-color: #f1f8e9; /* 柔绿 */
+}
+#music .main-content .cd-section h3 {
+	font-size: 26px;
+	color: #2e7d32;
+	margin-bottom: 12px;
+}
+#music .main-content .cd-section .cd-intro {
+	font-size: 14px;
+	margin-bottom: 36px;
+	color: #555;
+	font-family: "微软雅黑";
+}
+#music .main-content .cd-section .cd-list {
+	width: 1200px;
+	text-align: center;
+}
+#music .main-content .cd-section .cd-list .cd-card {
+	display: inline-block;
+	width: 300px;
+	margin: 12px;
+}
+#music .main-content .cd-section .cd-list .cd-card img {
+	width: 156px;
+	height: 156px;
+	/* 圆形效果 */
+	border-radius: 50%;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+	/* 最后添加动画 */
+	transition: transform 9s ease-in-out;
+}
+#music .main-content .cd-section .cd-list .cd-card img:hover {
+	/* 最后添加动画 */
+	transform: rotate(360deg);
+}
+#music .main-content .cd-section .cd-list .cd-card .song-title {
+	margin-top: 12px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #444;
+}
+#music .main-content .cd-section .cd-list .cd-card .song-desc {
+	font-size: 12px;
+	color: #666;
+	margin-top: 6px;
+}
+#music .main-content .singer-section {
+	padding-top: 48px;
+	text-align: center;
+}
+#music .main-content .singer-section h3 {
+	font-size: 26px;
+	color: #2e7d32;
+	margin-bottom: 12px;
+}
+#music .main-content .singer-section h4 {
+	font-size: 24px;
+	color: #2e7d32;
+	text-align: center;
+}
+#music .main-content .singer-section .singer-card {
+	width: 840px;
+	margin: 6px auto 48px;
+	background-color: rgba(255, 255, 255, 0.95);
+	border-radius: 18px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+#music .main-content .singer-section .left .singer-card img {
+	float: left;
+	width: 300px;
+	height: 300px;
+	border-radius: 18px;
+	margin: 24px;
+}
+#music .main-content .singer-section .right .singer-card img {
+	float: right;
+	width: 300px;
+	height: 300px;
+	border-radius: 18px;
+	margin: 24px;
+}
+#music .main-content .singer-section .singer-card .singer-text {
+	padding: 24px;
+	font-family: "微软雅黑";
+}
+#music .main-content .singer-section .singer-card .singer-text h5 {
+	font-size: 22px;
+	color: #2e7d32;
+	margin: 0 0 20px;
+}
+#music .main-content .singer-section .singer-card .singer-text .song-list {}
+#music .main-content .singer-section .singer-card .singer-text .song-list li {
+	font-size: 14px;
+	color: #555;
+	line-height: 24px;
+	margin-bottom: 6px;
+}
+
+#reading{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 48px 0;
+	background-color: white; 
+}
+#reading .main-content h2 {
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #2e7d32;
+}
+#reading .main-content .bookcard {
+	margin: 20px auto;
+	width: 840px;
+	background-color: #f1f1f1;
+	border-radius: 14px;
+	box-shadow: 0 4px 7px rgba(0,0,0,0.1);
+	overflow: hidden;
+	/* clear: both; */
+}
+#reading .main-content .left .bookcard img {
+	float: left;
+	width: 240px;
+	height: 180px;
+	margin-right: 24px;
+	border-radius: 14px 0 0 14px;
+}
+#reading .main-content .right .bookcard img {
+	float: right;
+	width: 240px;
+	height: 180px;
+	margin-left: 24px;
+	border-radius: 0 14px 14px 0;
+}
+#reading .main-content .bookcard .card-text {
+	padding: 6px;
+	overflow: hidden;
+	text-align: center;
+}
+#reading .main-content .bookcard .card-text h3{
+	font-size: 22px;
+	padding: 12px;
+}
+#reading .main-content .bookcard .card-text p{
+	font-size: 12px;
+	padding: 4px;
+	color: #555;
+}
+
+#sport{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 48px 0;
+	background-color: #e8f5e9; 
+}
+#sport .main-content h2 {
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #2e7d32;
+}
+#sport .main-content .sport-row {
+	text-align: center;
+	margin-top: 36px;
+}
+#sport .main-content .sport-row .sport-box {
+	display: inline-block;
+	width: 240px;
+	margin: 12px;
+	padding: 16px 18px;
+	background-color: white;
+	border-radius: 14px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+	/* vertical-align: top; */
+}
+#sport .main-content .sport-row .sport-box h3 {
+	font-size: 22px;
+	margin: 16px;
+	color: #2e7d32;
+}
+#sport .main-content .sport-row .sport-box img {
+	width: 240px;
+	height: 180px;
+	border-radius: 12px;
+	margin-top: 20px;
+	transition: transform 0.3s ease;
+}
+#sport .main-content .sport-row .sport-box a:hover img {
+	transform: scale(1.03);
+}
+#sport .main-content .sport-row .sport-box p {
+	font-size: 14px;
+	color: #555;
+	line-height: 22px;
+}
+#sport .main-content .sport-row .sport-box .tip{
+	font-size: 12px;
+	font-size: 14px;
+	color: #555;
+	line-height: 22px;
+}
+
+#photo{
+	width: 1200px;
+	margin: 0 auto;
+}
+#photo .main-content {
+	margin: 0 auto;
+	padding-top: 48px;
+	padding-bottom: 20px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+#photo .main-content h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #2e7d32;
+}
+#photo .main-content .photo-intro {
+	font-size: 16px;
+	margin-bottom: 36px;
+	color: #555;
+	font-family: "微软雅黑";
+}
+#photo .main-content .photo-album {
+	height: 480px;
+	text-align: center;
+	margin: 10px auto;
+}
+#photo .main-content .photo-album img {
+	width: 72px;
+	height: 480px;
+	border-right: 2px solid white;
+	transition: width 0.4s ease;
+	box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+}
+#photo .main-content .photo-album img:hover {
+	width: 528px;
+	z-index: 2;
+}
+#photo .main-content .photo-album img:first-child {
+	border-left: none;
+	border-radius: 12px 0 0 12px;
+}
+#photo .main-content .photo-album img:last-child {
+	border-right: none;
+	border-radius: 0 12px 12px 0;
+}
+#photo .main-content .tip{
+	font-size: 12px;
+	font-size: 14px;
+	color: #555;
+	line-height: 22px;
+}
+#end  {
+	width: 900px;
+	margin: 20px auto 48px;
+	padding: 24px 36px;
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius: 18px;
+	font-family: "微软雅黑";
+	box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+	color: #333;
+	line-height: 24px;
+	font-size: 14px;
+	text-align: center;
+}
